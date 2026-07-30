@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Entorno virtual de Python
+.venv/
+
+# Archivos generados por dbt
+target/
+dbt_packages/
+logs/
+
+# Credenciales y configuraciones locales
+.env
+profiles.yml
+
+# Datos locales del proyecto
+data/raw/*.csv
+data/processed/*
+
+# Archivos de diagnóstico
+debug*.txt
+
+# Mantener las carpetas aunque estén vacías
+!data/raw/.gitkeep
+!data/processed/.gitkeep
